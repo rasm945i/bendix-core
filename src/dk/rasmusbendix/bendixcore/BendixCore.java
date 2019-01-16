@@ -8,11 +8,11 @@ public class BendixCore extends JavaPlugin {
 
     private static HashMap<String, HashMap<String, CustomConfig>> configMap = new HashMap<>();
 
-    // TODO Load configs somehow ?
+    // Im starting to doubt if this even is useful.
 
     @Override
     public void onEnable() {
-
+        // Each plugin makes sure to load their own configs when they need to access them.
     }
 
     @Override
